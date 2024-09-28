@@ -1,2 +1,2 @@
 # zen-floating-history
-A Zen browser mod for a detached history sidebar, so that it appears to float on the left side.
+A Zen browser mod for a detached and redesigned history sidebar, so that it appears to float on the left side and match the zen aesthetic.
