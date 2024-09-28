@@ -1,2 +1,2 @@
 # zen-floating-history
-A zen mode for a floating history sidebar on the left side
+A Zen browser mod for a detached history sidebar, so that it appears to float on the left side.
