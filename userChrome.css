@@ -34,7 +34,7 @@ button#viewButton:hover:active {
   background-color: var(--zen-colors-border) !important;
 }
 
-@media (-moz-bool-pref: "uc.floating-side-bar.Bookmarks.enabled") {
+@media (-moz-bool-pref: "uc.floating-side-bar.Bookmarks") {
   #sidebar-box[sidebarcommand="viewBookmarksSidebar"] #sidebar-header {
     border-bottom: 0px !important; 
   }
@@ -66,7 +66,7 @@ button#viewButton:hover:active {
   }
 }
 
-@media (-moz-bool-pref: "uc.floating-side-bar.History.enabled") {
+@media (-moz-bool-pref: "uc.floating-side-bar.History") {
   #sidebar-box[sidebarcommand="viewHistorySidebar"] #sidebar-header {
     border-bottom: 0px !important; 
   }
@@ -98,7 +98,7 @@ button#viewButton:hover:active {
   }
 }
 
-@media (-moz-bool-pref: "uc.floating-side-bar.Synced-Tabs.enabled") {
+@media (-moz-bool-pref: "uc.floating-side-bar.Synced-Tabs") {
   #sidebar-box[sidebarcommand="viewTabsSidebar"] #sidebar-header {
     border-bottom: 0px !important; 
   }
@@ -130,7 +130,7 @@ button#viewButton:hover:active {
   }
 }
 
-@media (-moz-bool-pref: "uc.floating-side-bar.Others.diabled") {
+@media (-moz-bool-pref: "uc.floating-side-bar.Others") {
   #sidebar-box:not([sidebarcommand="viewHistorySidebar"]):not([sidebarcommand="viewBookmarksSidebar"]):not([sidebarcommand="viewTabsSidebar"]) #sidebar-header {
     border-bottom: 0px !important;
   }
@@ -162,4 +162,3 @@ button#viewButton:hover:active {
     transform: translateX(0);
   }
 }
-
