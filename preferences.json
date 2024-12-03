@@ -1,0 +1,6 @@
+{
+    "uc.floating-side-bar.Bookmarks.enabled": "makes the Bookmark side bar float",
+    "uc.floating-side-bar.History.enabled": "makes the history side bar float",
+    "uc.floating-side-bar.Synced-Tabs.enabled": "makes the synced tab side bar float",
+    "uc.floating-side-bar.Others.diabled": "makes other side bars float"     
+}
