@@ -47,9 +47,10 @@ button#viewButton:hover:active {
     padding: var(--zen-toolbox-padding) !important;
     position: fixed;
     z-index: 1;
-    height: 80vh !important;
+    height: auto !important;
     width: 20em !important;
     top: 10vh !important;
+    bottom: 10vh !important;
     right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
@@ -79,9 +80,10 @@ button#viewButton:hover:active {
     padding: var(--zen-toolbox-padding) !important;
     position: fixed;
     z-index: 1;
-    height: 80vh !important;
+    height: auto !important;
     width: 20em !important;
     top: 10vh !important;
+    bottom: 10vh !important;
     right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
@@ -111,9 +113,10 @@ button#viewButton:hover:active {
     padding: var(--zen-toolbox-padding) !important;
     position: fixed;
     z-index: 1;
-    height: 80vh !important;
+    height: auto !important;
     width: 20em !important;
     top: 10vh !important;
+    bottom: 10vh !important;
     right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
@@ -144,9 +147,10 @@ button#viewButton:hover:active {
     padding: var(--zen-toolbox-padding) !important;
     position: fixed;
     z-index: 1;
-    height: 80vh !important;
+    height: auto !important;
     width: 20em !important;
     top: 10vh !important;
+    bottom: 10vh !important;
     right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
