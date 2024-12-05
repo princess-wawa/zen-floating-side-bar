@@ -34,6 +34,15 @@ button#viewButton:hover:active {
   background-color: var(--zen-colors-border) !important;
 }
 
+#sidebar-box[positionend="true"]{
+ right: 0.6vw !important;
+ left: unset !important;
+}
+#sidebar-box:not([positionend="true"]){
+  right: unset !important;
+  left: 0.6vw !important;
+ }
+
 @media (-moz-bool-pref: "uc.floating-side-bar.Bookmarks") {
   #sidebar-box[sidebarcommand="viewBookmarksSidebar"] #sidebar-header {
     border-bottom: 0px !important; 
@@ -51,7 +60,6 @@ button#viewButton:hover:active {
     width: 20em !important;
     top: 10vh !important;
     bottom: 10vh !important;
-    right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
   }
@@ -84,7 +92,6 @@ button#viewButton:hover:active {
     width: 20em !important;
     top: 10vh !important;
     bottom: 10vh !important;
-    right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
   }
@@ -117,7 +124,6 @@ button#viewButton:hover:active {
     width: 20em !important;
     top: 10vh !important;
     bottom: 10vh !important;
-    right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
   }
@@ -151,7 +157,6 @@ button#viewButton:hover:active {
     width: 20em !important;
     top: 10vh !important;
     bottom: 10vh !important;
-    right: 0.6vw !important;
     transform: translateX(105%);
     transition: all 0.2s ease-in-out;
   }
