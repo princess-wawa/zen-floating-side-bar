@@ -42,11 +42,11 @@ button#viewButton:hover:active {
   background-color: var(--zen-colors-border) !important;
 }
 
-#sidebar-box[positionend="true"]{
+#sidebar-box[positionend=""]{
  right: 1vw !important;
  left: unset !important;
 }
-#sidebar-box:not([positionend="true"]){
+#sidebar-box:not([positionend=""]){
   right: unset !important;
   left: 1vw !important;
  }
